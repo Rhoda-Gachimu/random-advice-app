@@ -1,3 +1,69 @@
 .attribution a { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-  
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.card{
+    background-color: hsl(217, 19%, 24%);
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.card p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsl(150, 100%, 66%);
+}
+.card h3{
+    text-align: center;
+    padding: 20px;
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+
+}
+
+.image{
+    display: grid;
+}
+.image img{
+margin-left: 20px;
+padding-top: 20px;
+
+}
+
+.but button{
+    background-color:hsl(150, 100%, 66%);
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    margin: 10px 50% 0; 
+    display: grid;
+    align-items: center;
+    border-radius:50px ;
+    transform: translate(-50%, 50%);
+    cursor: pointer;
+
+   }
+
+
+button img{
+  width: 15px;
+  border-radius: 4px;
+  display: grid;
+  align-items: center;
+  margin-left: 13px;
+
+}
