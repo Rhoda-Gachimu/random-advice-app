@@ -12,7 +12,7 @@ async function getadvice(url){
     console.log(data)
 
     advice.innerHTML = data.slip.advice;
-    number.innerHTML = data.slip.id;
+    number.innerHTML = "ADVICE #" + data.slip.id;
 
 }
 getadvice(api_url);
